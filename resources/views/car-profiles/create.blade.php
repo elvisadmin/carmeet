@@ -292,7 +292,8 @@
                         <!-- Car Images -->
                         <div class="md:col-span-2">
                             <label for="images" class="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                                {{ __('Car Images') }} <span class="text-xs text-gray-500">(You can upload multiple images)</span>
+                                {{ __('Car Images') }} <span class="text-xs text-gray-500">(You can upload multiple images</span>
+                                 <span class="text-xs text-gray-500"> - JPG, JPEG, PNG. Max size: 5MB.)</span>
                             </label>
                             <div id="image-preview-container" class="mt-2">
                                 <div id="image-preview" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"></div>
